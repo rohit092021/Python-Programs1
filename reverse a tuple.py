@@ -1,0 +1,6 @@
+t=eval(input('ente no'))
+print(t)
+lst=list(t)
+lst.reverse()
+t=tuple(lst)
+print('reverse is',t)
